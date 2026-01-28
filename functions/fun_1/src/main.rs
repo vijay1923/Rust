@@ -12,6 +12,11 @@ fn main()
     // catch the returned value from another_function
     println!("The returned value from another_function is: {x}");   // print the returned value 
 
+    let tup = add_sub(1,4); // passsing tuple and receiving returned tuple
+    println!("Addition : {}",tup.0);
+    println!("Substraction : {}",tup.1);
+
+
 }
 fn another_function(x: i32) -> i32
 {
@@ -22,5 +27,12 @@ fn another_function(x: i32) -> i32
     println!("val= {val}", val = x);
      y // return y 
 
-
 }   
+
+fn add_sub(a: i32, b: i32) -> (i32, i32)
+{
+    
+let x=a+b;
+let y=a-b;
+(x,y)
+}
