@@ -18,7 +18,7 @@ fn main()
 
 
 }
-fn another_function(x: i32) -> i32
+fn another_function(x: i32) -> i32   // function which takes one argumentas  i32 and return i32 
 {
     let y: i32 = 10;
     println!("From another function.");
@@ -29,7 +29,7 @@ fn another_function(x: i32) -> i32
 
 }   
 
-fn add_sub(a: i32, b: i32) -> (i32, i32)
+fn add_sub(a: i32, b: i32) -> (i32, i32)    // this function takes 2 arguments as i32 and return 2 vales as i32 
 {
     
 let x=a+b;
