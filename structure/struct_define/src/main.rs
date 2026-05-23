@@ -1,6 +1,4 @@
-// stru
-
-
+// This program defines a structure to store student information and demonstrates how to create an instance of the structure and access its fields.
 
 
 struct strudent // structure to store student information
